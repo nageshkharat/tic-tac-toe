@@ -69,11 +69,14 @@ After deployment, Vercel will provide a **live link**.
 tic-tac-toe/
 │-- src/
 │   ├── components/       # React Components
-│   │   ├── Board.tsx     
-│   │   ├── Square.tsx    
+│   │   ├── Board.tsx
+│   │   ├── Game.tsx 
+│   │   ├── Square.tsx
+│   ├── styles/  
+│   │   ├── App.css    
 │   ├── App.tsx           
-│   ├── index.tsx         
-│   ├── styles.css        
+│   ├── index.css         
+│   ├── index.tsx        
 │-- public/               
 │-- package.json          
 │-- README.md             
@@ -95,5 +98,3 @@ This project is **open-source** and free to use.
 ---
 
 ### ⭐ **Enjoy the game? Give it a star on GitHub!** ⭐  
-```
-
