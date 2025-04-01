@@ -78,10 +78,6 @@ h1 {
   transition: all 0.2s ease;
 }
 
-.square:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
 .winning {
   background: #4CAF50;
   animation: pulse 1s infinite;
