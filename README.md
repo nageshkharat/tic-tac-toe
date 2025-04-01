@@ -1,8 +1,3 @@
----
-
-### 📜 **README.md**  
-
-```md
 # 🎮 Tic-Tac-Toe Game  
 
 A simple Tic-Tac-Toe game built using **React & TypeScript**. The game allows two players to take turns, detects a winner, highlights the winning combination, and provides a restart option.  
@@ -102,4 +97,3 @@ This project is **open-source** and free to use.
 ### ⭐ **Enjoy the game? Give it a star on GitHub!** ⭐  
 ```
 
----
