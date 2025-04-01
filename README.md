@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 📜 **README.md**  
 
-## Available Scripts
+```md
+# 🎮 Tic-Tac-Toe Game  
 
-In the project directory, you can run:
+A simple Tic-Tac-Toe game built using **React & TypeScript**. The game allows two players to take turns, detects a winner, highlights the winning combination, and provides a restart option.  
 
-### `npm start`
+## 🚀 Live Demo  
+🔗 **Play Here**: [Tic-Tac-Toe Live](https://tic-tac-toe-seven-beta-20.vercel.app/)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Installation & Setup  
+Follow these steps to run the project locally:  
 
-### `npm test`
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/nageshkharat/tic-tac-toe.git
+cd tic-tac-toe
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **2️⃣ Install Dependencies**  
+```bash
+npm install
+```
 
-### `npm run build`
+### **3️⃣ Start the Development Server**  
+```bash
+npm start
+```
+This will start the app at `http://localhost:3000/`.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Technologies Used  
+- ⚛ **React** (with TypeScript)  
+- 🎨 **CSS** (for styling)  
+- 🚀 **Vercel** (for deployment)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎯 Features  
+✔ **3x3 Grid Gameplay** - Players take turns as X and O.  
+✔ **Win & Draw Detection** - Announces winner or draw.  
+✔ **Winning Combination Highlighting** - Highlights the three winning cells.  
+✔ **Restart Button** - Reset the game anytime.  
+✔ **Responsive UI** - Works on all screen sizes.  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Deployment on Vercel  
+The game is hosted on **Vercel**. To deploy your own version:  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1️⃣ **Install Vercel CLI** (if not already installed):  
+```bash
+npm install -g vercel
+```
+2️⃣ **Login to Vercel**:  
+```bash
+vercel login
+```
+3️⃣ **Deploy the Project**:  
+```bash
+vercel
+```
+After deployment, Vercel will provide a **live link**.  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Folder Structure  
+```
+tic-tac-toe/
+│-- src/
+│   ├── components/       # React Components
+│   │   ├── Board.tsx     
+│   │   ├── Square.tsx    
+│   ├── App.tsx           
+│   ├── index.tsx         
+│   ├── styles.css        
+│-- public/               
+│-- package.json          
+│-- README.md             
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 Author  
+**👤 Nagesh Kharat**  
+📧 Email: [nageshkharat1910@gmail.com](mailto:nageshkharat1910@gmail.com)  
+🔗 GitHub: [nageshkharat](https://github.com/nageshkharat)  
+🔗 LinkedIn: [Nagesh Kharat](https://linkedin.com/in/nagesh-kharat)  
+
+---
+
+## 📜 License  
+This project is **open-source** and free to use.  
+
+---
+
+### ⭐ **Enjoy the game? Give it a star on GitHub!** ⭐  
+```
+
+---
