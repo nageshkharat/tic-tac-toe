@@ -3,7 +3,7 @@ import Game from "./components/Game";
 import "./styles/App.css";
  
 const App: React.FC = () => {
-  return (
+  return ( 
     <div className="App">
       <Game />
     </div>
